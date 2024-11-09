@@ -13,7 +13,7 @@ namespace TaskManagerAPI.Model
         [Required]
         public string Priority { get; set; }
         public int? AssigneeId { get; set; }
-        public User User { get; set; }
+        public User? User { get; set; }
          
 
 

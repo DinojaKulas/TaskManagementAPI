@@ -10,6 +10,7 @@ namespace TaskManagerAPI.Data
         }
         public DbSet<TaskItem> Tasks { get; set; }
         public DbSet<User> user { get; set; }
+        public DbSet<UserLogin> userLogin { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

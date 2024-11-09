@@ -658,3 +658,5 @@ X:\Activities\Activity42\Backend\TaskManagerAPI\bin\Debug\net8.0\runtimes\win\li
 X:\Activities\Activity42\Backend\TaskManagerAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 X:\Activities\Activity42\Backend\TaskManagerAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 X:\Activities\Activity42\Backend\TaskManagerAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+X:\Activities\Activity42\Backend\TaskManagerAPI\obj\Debug\net8.0\TaskManagerAPI.sourcelink.json
+X:\Activities\Activity42\Backend\TaskManagerAPI\bin\Debug\net8.0\BCrypt.Net.dll

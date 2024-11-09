@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using TaskManagerAPI.Data;
+using TaskManagerAPI.Interface;
+using TaskManagerAPI.Repository;
+using TaskManagerAPI.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,9 @@ builder.Services.AddControllers().AddJsonOptions(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TaskContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection")));
+
+builder.Services.AddScoped<IUserLoginRepository, UserLoginRepositoty>();
+builder.Services.AddScoped<IUserLoginService,UserLoginService>();
 
 
 builder.Services.AddCors(builder =>
